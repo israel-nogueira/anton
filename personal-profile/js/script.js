@@ -233,12 +233,12 @@ jQuery(function ($) {
 
     if ($("#personal").length) {
         var app = document.getElementById("personal");
-        var personal = new Typewriter(app, {
-            loop: true
-        });
-        personal.typeString('Photographer').pauseFor(2000).deleteAll()
-            .typeString('Traveler').pauseFor(2000).deleteAll()
-            .typeString('Model').start();
+        var personal = new Typewriter(app, {loop: true});
+        
+        personal
+            .typeString('O melhor investimento').pauseFor(2000).deleteAll()
+            .typeString('O mais rentável empreendimento').pauseFor(2000).deleteAll()
+            .typeString('O primeiro grupo aberto de investimento').start();
     }
 
 
