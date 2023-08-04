@@ -4810,6 +4810,19 @@ ul.count_down.white li p:nth-child(2) {
     bottom: 0;
     left: 0;
 }
+.personal-box #personal{
+    background-color: #00000094;
+    position: relative;
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+}
+.personal-box .textShadow{
+    text-shadow: 0px 0px 16px #000, 0px 0px 16px #000, 0px 0px 16px #000, 0px 0px 16px #000;
+}
 .personal-box h2{
     font-size: 3rem;
     margin-top: 30px;
