@@ -30,7 +30,45 @@
     <link rel="stylesheet" href="personal-profile/css/style.css">
     <!-- Custom Style CSS File -->
     <link rel="stylesheet" href="personal-profile/css/custom.css">
+    <style>
+    
+        .fundo-escuro-img{
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: auto;
+            padding: 50px 0;
+            background-color: #1e1e16;
+        }
+        .video-play-button{
+            left: 0;
+            right: 0;
+            -webkit-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+        }
 
+        @media (max-width: 768px){
+            .video-play-button {
+                left: 50%;
+                right: 50%;
+                top: 0;
+            }
+        }
+        @media (max-width: 1024px){
+            .fundo-escuro-img{
+                background-position: -130px center;
+            }
+        }
+        @media (min-width: 1024px){
+            .fundo-escuro-img{
+                background-image: url(personal-profile/img/bg_escuro.png);
+            }
+        }
+
+
+
+    </style>
 </head>
 <body data-spy="scroll" data-target=".navbar-nav" data-offset="90">
 
@@ -300,14 +338,17 @@
     <!-- About ends -->
 
     <!-- Phone starts -->
-    <section class="absolute-img-wrap">
+    <section class="absolute-img-wrap fundo-escuro-img">
         <h2 class="d-none">heading</h2>
         <div class="container">
             <div class="row">
+                <div class="col-lg-6 col-md-12 absolute-img right-img">
+                    <div class="d-lg-inline-block"></div>
+                </div>
                 <div class="col-lg-6 col-md-12 text-lg-left text-md-center md-mb-5">
                     <div class="main-title mb-2rem text-lg-left wow fadeIn" data-wow-delay="300ms">
                         <h5> Information about company </h5>
-                        <h2> Modeling Agency </h2>
+                        <h2 style="color:#d2d1b3;"> Modeling Agency </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu, lobortis id interdum vitae, interdum eget elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu, lobortis id interdum vitae, interdum eget elit.</p>
                     </div>
                     <a href="javascript:void(0)" class="btn-setting btn-hvr-setting-main btn-summer-sky color-white">Read More
@@ -321,11 +362,6 @@
                         </span>
                     </a>
                 </div>
-                <div class="col-lg-6 col-md-12 absolute-img right-img">
-                    <div class="d-lg-inline-block">
-                        <div class="image"><img alt="SEO" src="personal-profile/img/phone.png"></div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -336,7 +372,16 @@
         <h2 class="d-none">heading</h2>
         <div class="container-fluid">
             <div class="row align-items-center">
-                <div class="col-md-6 col-sm-12 p-0 equalheight col-video video-bg">
+                
+                <div class="col-md-6 col-sm-12 p-0 equalheight col-video bg-summer-sky ">
+                    <div class="video-content-setting center-block text-left text-xs-center equalheight">
+                        <h2 class="font-weight-light text-capitalize ml-md-5 mb-2rem mb-xxs-3">design for companies and freelancers.</h2>
+                        <p class="color-black ml-md-5 ">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-sm-12 p-0 equalheight col-video video-bg order-lg-2">
                     <div class="image hover-effect">
                         <img alt="stats" src="personal-profile/img/video-bg.jpg" class="equalheight video-img-setting">
                     </div>
@@ -346,13 +391,6 @@
 
                 </div>
 
-                <div class="col-md-6 col-sm-12 p-0 equalheight col-video bg-summer-sky order-lg-2">
-                    <div class="video-content-setting center-block text-left text-xs-center equalheight">
-                        <h2 class="font-weight-light text-capitalize ml-md-5 mb-2rem mb-xxs-3">design for companies and freelancers.</h2>
-                        <p class="color-black ml-md-5 ">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin.
-                        </p>
-                    </div>
-                </div>
 
             </div>
         </div>
