@@ -47,22 +47,41 @@
             -o-transform: translate(-50%,-50%);
             transform: translate(-50%,-50%);
         }
+        .video-bg{
+            height: 471.188px;
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: auto;
+            background-image: url(personal-profile/img/bg_amarelo_video.png);
+        }
 
-        @media (max-width: 768px){
+        @media (max-width: 767px){
+            .video-bg{
+                background-image: url(personal-profile/img/bg_amarelo_video_425.png);
+                background-position: center!important;
+            }
             .video-play-button {
                 left: 50%;
                 right: 50%;
                 top: 0;
             }
         }
+
+
+        @media (max-width: 1890px){
+            .video-bg{
+                background-position: -10% center;
+            }
+        }
+        @media (min-width: 993px){
+            .fundo-escuro-img{
+                background-image: url(personal-profile/img/bg_escuro.png);
+            }
+        }
+
         @media (max-width: 1024px){
             .fundo-escuro-img{
                 background-position: -130px center;
-            }
-        }
-        @media (min-width: 1024px){
-            .fundo-escuro-img{
-                background-image: url(personal-profile/img/bg_escuro.png);
             }
         }
 
@@ -371,7 +390,7 @@
     <section class="half-section p-0">
         <h2 class="d-none">heading</h2>
         <div class="container-fluid">
-            <div class="row align-items-center">
+            <div class="row align-items-center" style="background-color: #fece00;">
                 
                 <div class="col-md-6 col-sm-12 p-0 equalheight col-video bg-summer-sky ">
                     <div class="video-content-setting center-block text-left text-xs-center equalheight">
@@ -382,8 +401,10 @@
                 </div>
                 
                 <div class="col-md-6 col-sm-12 p-0 equalheight col-video video-bg order-lg-2">
-                    <div class="image hover-effect">
-                        <img alt="stats" src="personal-profile/img/video-bg.jpg" class="equalheight video-img-setting">
+                    <div class="image ">
+
+                        
+
                     </div>
                     <a data-fancybox="" href="https://www.youtube.com/watch?v=7e90gBu4pas" class="video-play-button position-absolute">
                         <i class="fa fa-play"></i>
