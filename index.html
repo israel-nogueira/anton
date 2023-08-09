@@ -54,7 +54,14 @@
             background-size: auto;
             background-image: url(personal-profile/img/bg_amarelo_video.png);
         }
-
+        .bg-rascunho{
+                visibility: visible;
+                animation-name: fadeInLeft;
+                height: 450px;
+                background-repeat: no-repeat;
+                background-position: left bottom;
+                background-size: 75%;
+        }
         @media (max-width: 767px){
             .video-bg{
                 background-image: url(personal-profile/img/bg_amarelo_video_425.png);
@@ -78,10 +85,27 @@
                 background-image: url(personal-profile/img/bg_escuro.png);
             }
         }
-
+        
         @media (max-width: 1024px){
             .fundo-escuro-img{
                 background-position: -130px center;
+            }
+        }
+        @media (max-width: 1240px){
+            .bg-rascunho{
+                    background-size: 75%;
+                    background-position: left bottom;
+            }
+        }
+        @media (min-width: 1440px){
+            .bg-rascunho{
+                	background-size: 75%;
+                	background-position: left bottom;
+            }
+        }
+        @media (min-width: 768px){
+            .bg-rascunho{
+                background-image: url(./personal-profile/img/features1.png);
             }
         }
 
@@ -203,11 +227,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6 col-sm-12 d-xs-none wow fadeInLeft" style="visibility: visible;animation-name: fadeInLeft;background-image: url(./personal-profile/img/features1.png);height: 330px;background-size: contain;background-position: left bottom;background-repeat: no-repeat;">
-                    <!-- <img alt="features" src="personal-profile/img/features1.png"> -->
+            <div class="row align-items-center bg-rascunho">
 
-                </div>
+                <div class="col-lg-5 col-md-6 col-sm-12 mx-auto wow"></div>
                 <div class="col-lg-5 col-md-6 col-sm-12 mx-auto wow fadeInRight">
                     <div class="feature-item mt-0">
                         <div class="laptop-features-icon">
