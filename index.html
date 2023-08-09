@@ -31,7 +31,20 @@
     <!-- Custom Style CSS File -->
     <link rel="stylesheet" href="personal-profile/css/custom.css">
     <style>
-    
+        .logo_topo_menu{
+            position: relative;
+            background-image: url(personal-profile/img/logo_topo_menu.png);
+            left: -16px;
+            width: 336px;
+            top: 0;
+            height: 70px;
+            border-radius: 40px 0 0 40px;
+        }
+        .fixed-menu .logo_topo_menu{
+            position: absolute;
+            left: 0;
+            border-radius: 0;
+        }
         .fundo-escuro-img{
             background-repeat: no-repeat;
             background-position: left center;
@@ -128,7 +141,7 @@
         <nav class="navbar navbar-top-default navbar-expand-lg static-nav black nav-radius transparent-bg bottom-nav box-nav not-full no-animation">
             <div class="container radius nav-box-shadow" style="background-color: #fece00;">
                 <a class="logo link" href="javascript:void(0)">
-                    <img src="personal-profile/img/logo.png" alt="logo" title="Logo">
+                    <div class="logo_topo_menu"></div>
                 </a>
                 <div class="collapse navbar-collapse d-none d-lg-block">
                     <ul class="nav navbar-nav ml-auto">
