@@ -329,4 +329,13 @@ jQuery(function ($) {
         }
     });
 
+    $(document).on('click', '.btn-link-whats', function (e) {
+        e.preventDefault();
+        var mensagem        = encodeURIComponent($(this).data('planta'));
+        var link          = 'https://api.whatsapp.com/send?phone=5541999999333&text=' + mensagem;
+        window.open(link)
+
+        return false;
+    });
+
 });
