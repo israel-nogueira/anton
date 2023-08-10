@@ -247,6 +247,33 @@ jQuery(function ($) {
        ====================================== */
 
     /* Testimonial */
+    $('#container_plans').owlCarousel({
+        loop: true,
+        smartSpeed: 500,
+        responsiveClass: true,
+        center: true,
+        nav: true,
+        dots: true,
+        navText: ['◀','▶'],
+        dotsContainer: ".owl-thumbs",
+        // autoplay: true,
+        // autoplayHoverPause: true,
+        // autoplayTimeout: 3000,
+        responsive: {
+            0: {
+                items: 1,
+                margin: 30,
+            },
+            480: {
+                items: 2,
+                margin: 30,
+            },
+            992: {
+                items: 3,
+                margin: 30,
+            }
+        }
+    });
     $('.testimonial-two').owlCarousel({
         loop: true,
         smartSpeed: 500,
