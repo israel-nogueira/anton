@@ -247,7 +247,8 @@ jQuery(function ($) {
        ====================================== */
 
     /* Testimonial */
-    $('#container_plans').owlCarousel({
+    $('#container_plans .owl-carousel').owlCarousel({
+        items: 1,
         loop: true,
         smartSpeed: 500,
         responsiveClass: true,
@@ -256,23 +257,6 @@ jQuery(function ($) {
         dots: true,
         navText: ['◀','▶'],
         dotsContainer: ".owl-thumbs",
-        // autoplay: true,
-        // autoplayHoverPause: true,
-        // autoplayTimeout: 3000,
-        responsive: {
-            0: {
-                items: 1,
-                margin: 30,
-            },
-            480: {
-                items: 2,
-                margin: 30,
-            },
-            992: {
-                items: 3,
-                margin: 30,
-            }
-        }
     });
     $('.testimonial-two').owlCarousel({
         loop: true,
