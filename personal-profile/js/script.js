@@ -322,4 +322,72 @@ jQuery(function ($) {
         return false;
     });
 
+    var TEMPLATE = $('#planta-template')[0].innerHTML;
+    var html = Mustache.render(TEMPLATE, 
+        {
+            "LISTA":[
+                        {
+                            'PLANTAS':[{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 2a5 pav final 01.png'}],
+                            'REFERENCIA':'102',
+                            'TITULO':'Unidade 102',
+                            'VALOR':'R$ 179.209,09',
+                            'ITENS':[
+                                {'ITEM': 'Area: 54,80' },
+                                {'ITEM':'Avaliação: 264.507'},
+                                {'ITEM':'Mercado: 24,24%'},
+                                {'ITEM':'Rentabilização: 53,96%'},
+                                {'ITEM':'Mensal: 1,50%'},
+                                {'ITEM':'Entrada: 35.842'},
+                                {'ITEM':'Balões: 11.947'},
+                                {'ITEM':'Parcelas:4.675'},
+                            ],
+                        }
+
+
+
+
+
+
+
+                        ,{
+                            'REFERENCIA':'103',
+                            'TITULO':'Unidade 103',
+                            'VALOR':'R$ 200.383,88',
+                            'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 1a9 pav.png'}],
+                            'ITENS':[
+                                { 'ITEM':'Area: 54,80'},
+                                { 'ITEM':'Avaliação: 264.507'},
+                                { 'ITEM':'Mercado: 24,24%'},
+                                {'ITEM':'Rentabilização: 53,96%'},
+                                {'ITEM':'Mensal: 1,50%'},
+                                {'ITEM':'Entrada: 40.077'},
+                                {'ITEM':'Balões: 13.359'},
+                                {'ITEM':'Parcelas:5.227'},
+                            ],
+                        }
+                        ,{
+                            'REFERENCIA':'102',
+                            'TITULO':'Unidade 102',
+                            'VALOR':'R$ 200.383,88',
+                            'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 1a9 pav.png'}],
+                            'ITENS':[
+                                { 'ITEM':'Area: 54,80'},
+                                { 'ITEM':'Avaliação: 264.507'},
+                                { 'ITEM':'Mercado: 24,24%'},
+                                {'ITEM':'Rentabilização: 53,96%'},
+                                {'ITEM':'Mensal: 1,50%'},
+                                {'ITEM':'Entrada: 40.077'},
+                                {'ITEM':'Balões: 13.359'},
+                                {'ITEM':'Parcelas:5.227'},
+                            ],
+                        }
+
+
+
+                    ]
+                })
+
+
+    $('#container_plans .row').html(html)
+
 });
