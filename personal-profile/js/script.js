@@ -428,7 +428,7 @@ jQuery(function ($) {
                                 { 'ITEM':'Area:82,19' },
                                 { 'ITEM':'Avaliação: 320.732'},
                                 { 'ITEM': 'V. futura:374.102' },
-								{'ITEM':'Mercado: 24,24%'},
+								{'ITEM': 'Mercado: 24,24%'},
 								{'ITEM':'Rentabilização: 53,96%'},
                                 { 'ITEM':'Mensal: 1,50%'},
                                 { 'ITEM':'Entrada: 48.596'},
