@@ -246,18 +246,7 @@ jQuery(function ($) {
        Owl Carousel
        ====================================== */
 
-    /* Testimonial */
-    $('#container_plans .owl-carousel').owlCarousel({
-        items: 1,
-        loop: true,
-        smartSpeed: 500,
-        responsiveClass: true,
-        center: true,
-        nav: true,
-        dots: true,
-        navText: ['◀','▶'],
-        dotsContainer: ".owl-thumbs",
-    });
+
     $('.testimonial-two').owlCarousel({
         loop: true,
         smartSpeed: 500,
@@ -327,67 +316,175 @@ jQuery(function ($) {
         {
             "LISTA":[
                         {
-                            'PLANTAS':[{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 2a5 pav final 01.png'}],
-                            'REFERENCIA':'102',
-                            'TITULO':'Unidade 102',
+							'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 1a9 pav.png'}],
+							'REFERENCIA':'101',
+							'TITULO':'Unidade 101',
                             'VALOR':'R$ 179.209,09',
-                            'ITENS':[
-                                {'ITEM': 'Area: 54,80' },
-                                {'ITEM':'Avaliação: 264.507'},
-                                {'ITEM':'Mercado: 24,24%'},
-                                {'ITEM':'Rentabilização: 53,96%'},
-                                {'ITEM':'Mensal: 1,50%'},
-                                {'ITEM':'Entrada: 35.842'},
-                                {'ITEM':'Balões: 11.947'},
-                                {'ITEM':'Parcelas:4.675'},
-                            ],
-                        }
-
-
-
-
-
-
+							'ITENS':[
+                                { 'ITEM':'Area: 49,01' },
+                                { 'ITEM':'Avaliação: 236.556'},
+                                { 'ITEM':'V. futura: 275,919'},
+								{ 'ITEM':'Mercado: 24,24%'},
+                                { 'ITEM':'Rentabilização: 53,96%'},
+                                { 'ITEM':'Mensal: 1,50%'},
+                                { 'ITEM':'Entrada: 35.842'},
+                                { 'ITEM':'Balões: 11.947'},
+                                { 'ITEM':'Parcelas: 4.675'},
+							],
+						}
 
                         ,{
-                            'REFERENCIA':'103',
-                            'TITULO':'Unidade 103',
+							'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 1a9 pav.png'}],
+							'REFERENCIA':'102',
+							'TITULO':'Unidade 102',
                             'VALOR':'R$ 200.383,88',
-                            'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 1a9 pav.png'}],
-                            'ITENS':[
-                                { 'ITEM':'Area: 54,80'},
+							'ITENS':[
+                                { 'ITEM':'Area:54,80' },
                                 { 'ITEM':'Avaliação: 264.507'},
-                                { 'ITEM':'Mercado: 24,24%'},
-                                {'ITEM':'Rentabilização: 53,96%'},
-                                {'ITEM':'Mensal: 1,50%'},
-                                {'ITEM':'Entrada: 40.077'},
-                                {'ITEM':'Balões: 13.359'},
-                                {'ITEM':'Parcelas:5.227'},
-                            ],
-                        }
+                                { 'ITEM': 'V. futura: 308.521' },
+								{'ITEM':'Mercado: 24,24%'},
+								{ 'ITEM':'Rentabilização: 53,96%'},
+								{'ITEM':'Mensal: 1,50%'},
+								{ 'ITEM':'Entrada: 40.077'},
+								{ 'ITEM':'Balões: 13.359'},
+								{ 'ITEM':'Parcelas: 5.227'},
+							],
+						}
+
                         ,{
-                            'REFERENCIA':'102',
-                            'TITULO':'Unidade 102',
-                            'VALOR':'R$ 200.383,88',
-                            'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 1a9 pav.png'}],
-                            'ITENS':[
-                                { 'ITEM':'Area: 54,80'},
-                                { 'ITEM':'Avaliação: 264.507'},
-                                { 'ITEM':'Mercado: 24,24%'},
-                                {'ITEM':'Rentabilização: 53,96%'},
+							'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 1a9 pav.png'}],
+							'REFERENCIA':'103',
+							'TITULO':'Unidade 103',
+							'VALOR':'R$ 179.209,09',
+							'ITENS':[
+                                {'ITEM':'Area: 59,05' },
+                                {'ITEM':'Avaliação: 285.011 '},
+                                {'ITEM': 'V. futura: 332.437' },
+								{'ITEM':'Mercado: 24,24%'},
+								{'ITEM':'Rentabilização: 53,96%'},
                                 {'ITEM':'Mensal: 1,50%'},
-                                {'ITEM':'Entrada: 40.077'},
-                                {'ITEM':'Balões: 13.359'},
-                                {'ITEM':'Parcelas:5.227'},
-                            ],
-                        }
-
-
-
-                    ]
+                                {'ITEM':'Entrada: 43.184'},
+                                {'ITEM':'Balões: 14.395'},
+                                {'ITEM':'Parcelas: 5.633'},
+							],
+						}
+                       ,{
+						   'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 1a9 pav.png'}],
+						   'REFERENCIA':'105',
+						   'TITULO':'Unidade 105',
+                           'VALOR':'R$ 180.026,65',
+							'ITENS':[
+                                { 'ITEM':'Area:49,23' },
+                                { 'ITEM':'Avaliação: 237.635'},
+                                { 'ITEM': 'V. futura: 277.178' },
+								{'ITEM':'Mercado: 24,24%'},
+								{'ITEM':'Rentabilização: 53,96%'},
+                                { 'ITEM':'Mensal: 1,50%'},
+                                { 'ITEM':'Entrada: 36.005'},
+                                { 'ITEM':'Balões: 12.002'},
+                                { 'ITEM':'Parcelas:4.696'},
+							],
+						}
+                       ,{
+						   'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 29m - 2a5 pav.png'}],
+						   'REFERENCIA':'112',
+						   'TITULO':'Unidade 112',
+                           'VALOR':'R$ 232.186,96',
+							'ITENS':[
+                                { 'ITEM':'Area: 63,49' },
+                                { 'ITEM':'Avaliação:306.487'},
+                                { 'ITEM': 'V. futura:357.486' },
+								{'ITEM':'Mercado: 24,24%'},
+								{'ITEM':'Rentabilização: 53,96%'},
+                                { 'ITEM':'Mensal: 1,50%'},
+                                { 'ITEM':'Entrada: 46.437'},
+                                { 'ITEM':'Balões: 15.479'},
+                                { 'ITEM':'Parcelas:6.057'},
+							],
+						}
+                       ,{
+						   'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 32m - 1 pav final 13 - 2a5 pav .png'}],
+						   'REFERENCIA':'113',
+						   'TITULO':'Unidade 113',
+                           'VALOR':'R$ 265.052,86',
+							'ITENS':[
+                                { 'ITEM':'Area:72,48' },
+                                { 'ITEM':'Avaliação: 349.870'},
+                                { 'ITEM': 'V. futura: 408.088' },
+								{'ITEM':'Mercado: 24,24%'},
+								{'ITEM':'Rentabilização: 53,96%'},
+                                { 'ITEM':'Mensal: 1,50%'},
+                                { 'ITEM':'Entrada: 53.011'},
+                                { 'ITEM':'Balões: 17.670'},
+                                { 'ITEM':'Parcelas:6.914'},
+							],
+						}
+                       ,{
+						   'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 2a5 pav final 01.png'}],
+						   'REFERENCIA':'201g',
+						   'TITULO':'Unidade 201g',
+                           'VALOR':'R$ 242.978,75',
+							'ITENS':[
+                                { 'ITEM':'Area:82,19' },
+                                { 'ITEM':'Avaliação: 320.732'},
+                                { 'ITEM': 'V. futura:374.102' },
+								{'ITEM':'Mercado: 24,24%'},
+								{'ITEM':'Rentabilização: 53,96%'},
+                                { 'ITEM':'Mensal: 1,50%'},
+                                { 'ITEM':'Entrada: 48.596'},
+                                { 'ITEM':'Balões: 16.199'},
+                                { 'ITEM':'Parcelas:  6.339'},
+							],
+						}
+                       ,{
+						   'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 2a5 pav final 01.png'}],
+						   'REFERENCIA':'401',
+						   'TITULO':'Unidade 401',
+                           'VALOR':'R$ 191.422,54',
+							'ITENS':[
+                                { 'ITEM':'Area:50,71' },
+                                { 'ITEM':'Avaliação: 252.678'},
+                                { 'ITEM': 'V. futura:294.723' },
+								{ 'ITEM':'Mercado: 24,24%'},
+								{ 'ITEM':'Rentabilização: 53,96%'},
+                                { 'ITEM':'Mensal: 1,50%'},
+                                { 'ITEM':'Entrada:38.285'},
+                                { 'ITEM':'Balões: 12.762'},
+                                { 'ITEM':'Parcelas: 4.994'},
+							],
+						}
+                       ,{
+						   'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 17m - Garden 606.png'}],
+						   'REFERENCIA':'606g',
+						   'TITULO':'Unidade 606g',
+                           'VALOR':'R$ 219.009,14',
+							'ITENS':[
+                                {'ITEM':'Area:65,08' },
+                                {'ITEM':'Avaliação: 289.092'},
+                                {'ITEM': 'V. futura: 364.173' },
+								{'ITEM':'Mercado: 24,24%'},
+                                {'ITEM':'Rentabilização: 66,28%'},
+                                {'ITEM':'Mensal: 1,84%'},
+                                {'ITEM':'Entrada: 43.802'},
+                                {'ITEM':'Balões:  14.601'},
+                                {'ITEM':'Parcelas:5.713'},
+							],
+						}
+	                  ]
                 })
 
 
     $('#container_plans .row').html(html)
-
+	/* Testimonial */
+	$('#container_plans .owl-carousel').owlCarousel({
+		items: 1,
+		loop: true,
+		smartSpeed: 500,
+		responsiveClass: true,
+		center: true,
+		nav: true,
+		dots: true,
+		navText: ['◀', '▶'],
+		dotsContainer: ".owl-thumbs",
+	});
 });
