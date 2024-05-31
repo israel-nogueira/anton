@@ -1,0 +1,168 @@
+{
+            "LISTA":[
+                        {
+							'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 1a9 pav.png'}],
+							'REFERENCIA':'101',
+							'TITULO':'Unidade 101',
+                            'VALOR':'R$ 180.688,82',
+							'ITENS':[
+                                // { 'ITEM':'Area: 49,01' },
+                                { 'ITEM':'Area: 21,92' },
+                                { 'ITEM':'Avaliação: 2225.861'},
+                                // { 'ITEM':'V. futura: 275,919'},
+								{ 'ITEM':'Mercado: 20,00%'},
+                                { 'ITEM':'Rentabilização: 45,80%'},
+                                // { 'ITEM':'Mensal: 1,27%'},
+                                { 'ITEM':'Entrada: R$ 36.138'},
+                                { 'ITEM':'Balões: R$ 12.046'},
+                                { 'ITEM':'Parcelas: 6.023'},
+							],
+						}
+
+                        ,{
+							'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 1a9 pav.png'}],
+							'REFERENCIA':'102',
+							'TITULO':'Unidade 102',
+                            'VALOR':'R$ 202.038,46',
+							'ITENS':[
+                                // { 'ITEM':'Area:54,80' },
+                                { 'ITEM':'Area:24,51' },
+                                { 'ITEM':'Avaliação: 252.548'},
+                                // { 'ITEM': 'V. futura: 294.572' },
+								{'ITEM':'Mercado: 20,00%'},
+								{ 'ITEM':'Rentabilização: 45,80%'},
+								// {'ITEM':'Mensal: 1,27'},
+								{ 'ITEM':'Entrada: R$ 40.408'},
+								{ 'ITEM':'Balões: R$ 13.469'},
+								{ 'ITEM':'Parcelas: 6.735'},
+							],
+						}
+
+                        ,{
+							'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 1a9 pav.png'}],
+							'REFERENCIA':'103',
+							'TITULO':'Unidade 103',
+							'VALOR':'R$ 217.700,35',
+							'ITENS':[
+                                { 'ITEM':'Area: 26,41' },
+                                // {'ITEM':'Area: 59,05' },
+                                {'ITEM':'Avaliação: 272.125 '},
+                                // {'ITEM': 'V. futura: 317.407' },
+								{'ITEM':'Mercado: 20,00%'},
+								{'ITEM':'Rentabilização: 45,80%'},
+                                // {'ITEM':'Mensal: 1,27%'},
+                                {'ITEM':'Entrada: R$ 43.540'},
+                                {'ITEM':'Balões: R$ 114.513'},
+                                {'ITEM':'Parcelas: 7.257'},
+							],
+						}
+                       ,{
+						   'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 1a9 pav.png'}],
+						   'REFERENCIA':'105',
+						   'TITULO':'Unidade 105',
+                           'VALOR':'R$ 181.513,13',
+							'ITENS':[
+                                { 'ITEM':'Area:22,02' },
+                                // { 'ITEM':'Area:49,23' },
+                                { 'ITEM':'Avaliação: 2226.891'},
+                                // { 'ITEM': 'V. futura: 2264.646' },
+								{'ITEM':'Mercado: 20,00%'},
+								{'ITEM':'Rentabilização: 45,80%'},
+                                // { 'ITEM':'Mensal: 1,27%'},
+                                { 'ITEM':'Entrada: R$ 36.303'},
+                                { 'ITEM':'Balões: R$ 12.101'},
+                                { 'ITEM':'Parcelas:6.050'},
+							],
+						}
+                       ,{
+						   'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 29m - 2a5 pav.png'}],
+						   'REFERENCIA':'112',
+						   'TITULO':'Unidade 112',
+                           'VALOR':'R$ 234.104,13',
+							'ITENS':[
+                                { 'ITEM':'Area: 28,40' },
+                                // { 'ITEM':'Area: 63,49' },
+                                { 'ITEM':'Avaliação: 292.630'},
+                                // { 'ITEM': 'V. futura: 341.324' },
+								{'ITEM':'Mercado: 20,00%'},
+								{'ITEM':'Rentabilização: 45,80%'},
+                                // { 'ITEM':'Mensal: 1,27%'},
+                                { 'ITEM':'Entrada: R$ 46.821'},
+                                { 'ITEM':'Balões: R$ 15.607'},
+                                { 'ITEM':'Parcelas:7.803'},
+							],
+						}
+                       ,{
+						   'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 32m - 1 pav final 13 - 2a5 pav .png'}],
+						   'REFERENCIA':'113',
+						   'TITULO':'Unidade 113',
+                           'VALOR':'R$ 267.241,40',
+							'ITENS':[
+                                { 'ITEM':'Area:32,42' },
+                                // { 'ITEM':'Area:72,48' },
+                                { 'ITEM':'Avaliação: 334.052'},
+                                // { 'ITEM': 'V. futura: 389.638' },
+								{'ITEM':'Mercado: 20,00%'},
+								{'ITEM':'Rentabilização: 45,80%'},
+                                // { 'ITEM':'Mensal: 1,27%'},
+                                { 'ITEM':'Entrada: R$ 53.448'},
+                                { 'ITEM':'Balões: R$ 17.816'},
+                                { 'ITEM':'Parcelas:8.908'},
+							],
+						}
+                       ,{
+						   'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 2a5 pav final 01.png'}],
+						   'REFERENCIA':'201g',
+						   'TITULO':'Unidade 201g',
+                           'VALOR':'R$ 244.985,03',
+							'ITENS':[
+                                { 'ITEM':'Area:36,76' },
+                                // { 'ITEM':'Area:82,19' },
+                                { 'ITEM':'Avaliação: 306.231'},
+                                // { 'ITEM': 'V. futura: 357.188' },
+								{'ITEM': 'Mercado: 20,00%'},
+								{'ITEM':'Rentabilização: 45,80%'},
+                                // { 'ITEM':'Mensal: 1,27%'},
+                                { 'ITEM':'Entrada: R$ 48.997'},
+                                { 'ITEM':'Balões: R$ 6.332'},
+                                { 'ITEM':'Parcelas:  8.166'},
+							],
+						}
+                       ,{
+						   'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 22m - 2a5 pav final 01.png'}],
+						   'REFERENCIA':'401',
+						   'TITULO':'Unidade 401',
+                           'VALOR':'R$ 191.422,54',
+							'ITENS':[
+                                { 'ITEM':'Area:22,68' },
+                                // { 'ITEM':'Area:50,71' },
+                                { 'ITEM':'Avaliação: 252.678'},
+                                // { 'ITEM': 'V. futura:294.723' },
+								{ 'ITEM':'Mercado: 24,24%'},
+								{ 'ITEM':'Rentabilização: 53,96%'},
+                                // { 'ITEM':'Mensal: 1,50%'},
+                                { 'ITEM':'Entrada: R$38.285'},
+                                { 'ITEM':'Balões: R$ 12.762'},
+                                { 'ITEM':'Parcelas: 4.994'},
+							],
+						}
+                       ,{
+						   'PLANTAS': [{ 'IMG':'./sources/Plantas Humanizadas/Planta 17m - Garden 606.png'}],
+						   'REFERENCIA':'606g',
+						   'TITULO':'Unidade 606g',
+                           'VALOR':'R$ 220.734,93',
+							'ITENS':[
+                                {'ITEM':'Area:29,11' },
+                                // {'ITEM':'Area:65,08' },
+                                {'ITEM':'Avaliação: 291.370'},
+                                // {'ITEM': 'V. futura: 3367.042' },
+								{'ITEM':'Mercado: 24,24%'},
+                                {'ITEM':'Rentabilização: 66,28%'},
+                                // {'ITEM':'Mensal: 1,84%'},
+                                {'ITEM':'Entrada: R$ 4.147'},
+                                {'ITEM':'Balões: R$  14.716'},
+                                {'ITEM':'Parcelas: 7.358'},
+							],
+						}
+	                  ]
+                }
